@@ -1,1 +1,12 @@
 # Neovim Configuration / Reference Sheet
+
+## How to compile/link Boost with clang?
+```
+$ ./bootstrap --with-toolset=clang
+$ ./b2 clean
+$ ./b2 toolset=clang cxxflags="-stdlib=libc++" linkflags="-stdlib=libc++"
+```
+
+https://stackoverflow.com/questions/8486077/how-to-compile-link-boost-with-clang-libc
+
+Tons of errors works no problem.
