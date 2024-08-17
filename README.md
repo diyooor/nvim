@@ -1,6 +1,5 @@
 # Neovim Configuration / Reference Sheet
 
-<<<<<<<< HEAD:README.md
 ## Don't forget to install packer
 ```
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
@@ -9,7 +8,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 ========
 - Dont forget to install packer (go to packer.lua type :so, then :PackerSync) 
 - also make sure clang, clangd, libstdc++-12-dev, build-essential
->>>>>>>> 4c873f9 (good changes):readme.md
+- install ripgrep to filter ignored files in projects so good
 
 ## How to compile/link Boost with clang?
 ```
