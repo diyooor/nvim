@@ -1,22 +1,23 @@
-# Neovim Configuration / Reference Sheet
+              GLWTS(Good Luck With That Shit) Общественная Лицензия
+                      Copyright (c) Все блять, кроме Автора
 
-## Don't forget to install packer
-```
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-```
-========
-- Dont forget to install packer (go to packer.lua type :so, then :PackerSync) 
-- also make sure clang, clangd, libstdc++-12-dev, build-essential
-- install ripgrep to filter ignored files in projects so good
+Всем разрешается копировать, распространять, изменять, совмещать, продавать,
+публиковать, сублицензировать или творить любую другую хуйню с этим кодом
+на СВОЙ СТРАХ и РИСК.
 
-## How to compile/link Boost with clang?
-```
-$ ./bootstrap --with-toolset=clang
-$ ./b2 clean
-$ ./b2 toolset=clang cxxflags="-stdlib=libc++" linkflags="-stdlib=libc++"
-```
+Автор абсолютно нихуя не понимает в предназначении данного кода.
+Он может сработать, а может и нет - автору не ебет.
 
-https://stackoverflow.com/questions/8486077/how-to-compile-link-boost-with-clang-libc
 
-Tons of errors works no problem.
+                    "УДАЧИ С ЭТОМ ДЕРЬМОМ" ОБЩЕСТВЕННАЯ ЛИЦЕНЗИЯ
+          УСЛОВИЯ И ПОЛОЖЕНИЯ ДЛЯ КОПИРОВАНИЯ, РАСПРОСТРАНЕНИЯ И ИЗМЕНЕНИЯ
+
+  0. Делайте ЛЮБУЮ ХУЙНЮ, ВЗБРЕДУЩУЮ ВАМ В ГОЛОВУ до тех пор, пока ВЫ НЕ ОСТАВЛЯЕТЕ
+УЛИК ДЛЯ НАХОЖДЕНИЯ АВТОРА оригинального продукта, чтобы обвинить его или заставить
+взять на себя ответственность.
+
+НИ ПРИ КАКИХ ОБСТОЯТЕЛЬСТВАХ АВТОРЫ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА ПРЕТЕНЗИИ,
+УБЫТКИ ИЛИ ДРУГИЕ ОТВЕТСТВЕННОСТИ, ПОДНЯТЫЕ ВО ВРЕМЯ КОНТРАКТА И ВЫЗВАННЫЕ
+ПРЯМОЙ ИЛИ КОСВЕННОЙ СВЯЗЬЮ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ.
+
+Удачи, и храни тебя Господь.
